@@ -1,41 +1,8 @@
-#download-btn{
-  background-color: #9e743b;
-  grid-area: download;
-}
-
-#home-btn{
-  background-color: #da4281;
-  grid-area: home;
-}
-
-#join-us-btn{
-  background-color: #1d99c4;
-  grid-area: join;
-}
-
-#settings-btn{
-  background-color: #719faa;
-  grid-area: settings;
-}
-
-#help-btn{
-  background-color: #585492;
-  grid-area: help;
-}
-
-#search-btn{
-  background-color: #63993f;
-  grid-area: search;
-}
-
-#login-btn{
-  background-color: #f8851e;
-  grid-area: login;
-}
-
-#contactUs-btn{
-  background-color: #98282e;
-  grid-area: contact;
+.App{
+  grid-gap:10px;
+  display: grid;
+  justify-content: center;
+  grid-template-areas: ". .";
 }
 
 .button{
@@ -46,14 +13,4 @@
   font-size: 18px;
   font-weight: 500;
   color: white;
-}
-.container{
-  margin: auto;
-  display: grid;
-  justify-content: center;
-  grid-gap: 2rem;
-  grid-template-areas: " join setting "
-                       " login contact "
-                       " search help "
-                       " home download ";
 }

@@ -1,10 +1,17 @@
 import './App.css';
-import Container from './Components/container';
+import CreateCard from './Components/CreateCard';
 
 function App() {
   return (
     <div className="App App-header">
-      <Container />
+      <CreateCard title="JOIN US"/>
+      <CreateCard title="CONTACT US"/>
+      <CreateCard title="HOME" />
+      <CreateCard title="LOGIN" />
+      <CreateCard title="SETTINGS" />
+      <CreateCard title="HELP" />
+      <CreateCard title="SEARCH"/>
+      <CreateCard title="DOWNLOAD"/>
     </div>
   );
 }
